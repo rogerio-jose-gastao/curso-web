@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.box{
+    background-color: grey;
+    margin: 10px 10px;
+    text-align: center;
+}
+
+.topo{
+    height: 150px;
+    width: 100%;
+}
+
+.menu{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+}
+
+.info{
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.esquerda{
+    height: 100%;
+    width: 70%;
+    background-color: transparent;
+}
+.direita{
+    
+    height: 100%;
+    width: 30%;
+}
+
+.destaques{
+    height: 50%;
+    width: 100%;
+    background-color: blue;
+}
+
+.chamadas{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 100%;
+}
+
+.dirChamada{
+    height: 100%;
+    width: 50%;
+    background-color: antiquewhite;
+
+}
+.esqChamada{
+    height: 100%;
+    width: 50%;
+    background-color:burlywood;
+    
+}
+
+.rodape{
+    height: 100px;
+    width: 100%;
+    background-color: red;
+}
+
+.form{
+    height:10%;
+    width: 100%;
+    background-color: aliceblue;
+    color: #000;
+}
+
+.maisLidos{
+    height: 40%;
+    width: 100%;
+    background-color: aliceblue;
+    color: #000;
+}
+
+.anuncios{
+    height: 50%;
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    "anuncio1 anuncio2"
+    "anuncio3 anuncio4";
+}
+
+.anuncio1{
+    padding: 2px;
+    background-color: aliceblue;
+    color: #000;
+}
+.anuncio2{
+    padding: 2px;
+    background-color: aliceblue;
+    color: #000;
+}
+.anuncio3{
+    padding: 2px;
+    background-color: aliceblue;
+    color: #000;
+}
+.anuncio4{
+    padding: 2px;
+    background-color: aliceblue;
+    color: #000;
+}
