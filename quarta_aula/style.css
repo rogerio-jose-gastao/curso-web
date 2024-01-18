@@ -33,9 +33,11 @@
     height: 100%;
     width: 70%;
     background-color: transparent;
+    margin-left: 10px;
 }
 .direita{
     margin-top: 0;
+    margin-right: 10px;
     height: 100%;
     width: 30%;
 }
@@ -81,7 +83,7 @@
 }
 
 .maisLidos{
-    height: 40%;
+    height: 300px;
     width: 100%;
     background-color: aliceblue;
     color: #000;
