@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    color: #fff;
+
+}
+
+.header{
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+    color: #fff;
+
+}
+
+.box{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.container{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+.content{
+    width: 70%;
+    height: 100%;
+    background-color: greenyellow;
+    color: #fff;
+
+}
+
+.side{
+    width: 30%;
+    height: 100%;
+    background-color: green;
+    color: #fff;
+
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(214, 68, 1);
+    color: #fff;
+
+}
+
+
+
