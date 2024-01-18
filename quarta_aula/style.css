@@ -6,7 +6,7 @@
 
 .box{
     background-color: grey;
-    margin: 10px 10px;
+    margin: 10px 10px 10px 10px;
     text-align: center;
 }
 
@@ -35,7 +35,7 @@
     background-color: transparent;
 }
 .direita{
-    
+    margin-top: 0;
     height: 100%;
     width: 30%;
 }
@@ -73,6 +73,7 @@
 }
 
 .form{
+    margin-top: 0;
     height:10%;
     width: 100%;
     background-color: aliceblue;
@@ -96,22 +97,22 @@
 }
 
 .anuncio1{
-    padding: 2px;
+    margin: 2px;
     background-color: aliceblue;
     color: #000;
 }
 .anuncio2{
-    padding: 2px;
+    margin: 2px;
     background-color: aliceblue;
     color: #000;
 }
 .anuncio3{
-    padding: 2px;
+    margin: 2px;
     background-color: aliceblue;
     color: #000;
 }
 .anuncio4{
-    padding: 2px;
+    margin: 2px;
     background-color: aliceblue;
     color: #000;
 }
