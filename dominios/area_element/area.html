@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo com Tag Area</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho da página -->
+    <header>
+        <h1>Meu Site</h1>
+        <p>Um exemplo com a tag &lt;area&gt;</p>
+    </header>
+
+    <!-- Definindo um mapa de imagem com áreas clicáveis -->
+    <map name="mapa-imagem">
+        <!-- Área 1: coordenadas x=0, y=0 até x=100, y=100, com link para "pagina1.html" -->
+        <area shape="rect" coords="0,0,100,100" href="pagina1.html" alt="Área 1">
+        <!-- Área 2: coordenadas x=100, y=0 até x=200, y=100, com link para "pagina2.html" -->
+        <area shape="rect" coords="100,0,200,100" href="pagina2.html" alt="Área 2">
+        <!-- Área 3: coordenadas x=0, y=100 até x=100, y=200, com link para "pagina3.html" -->
+        <area shape="rect" coords="0,100,100,200" href="pagina3.html" alt="Área 3">
+        <!-- Área 4: coordenadas x=100, y=100 até x=200, y=200, com link para "pagina4.html" -->
+        <area shape="rect" coords="100,100,200,200" href="pagina4.html" alt="Área 4">
+    </map>
+
+    <!-- Imagem com o mapa de áreas definido -->
+    <img src="imagem-mapa.png" usemap="#mapa-imagem" alt="Mapa de Imagem">
+
+    <!-- Rodapé da página -->
+    <footer>
+        <p>Rodapé da página</p>
+    </footer>
+
+</body>
+</html>
+

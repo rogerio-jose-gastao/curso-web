@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Elementos Semânticos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        nav {
+            background-color: #f1f1f1;
+            padding: 10px;
+            margin-bottom: 10px;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        nav ul{
+            display: flex;
+            flex-direction: row;
+            
+
+        }
+
+        nav ul a{
+            text-decoration: none;
+            color: #000;
+            list-style: none;
+            margin: 10px;
+            
+
+        }
+
+        main {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        article {
+            flex: 1;
+            margin-right: 10px;
+            background-color: orange;
+        }
+
+        aside {
+            width: 30%;
+            background-color: #f1f1f1;
+            padding: 10px;
+        }
+
+        footer{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>Meu Site</h1>
+            <p>Um exemplo de elementos semânticos</p>
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h2>Artigo Principal</h2>
+            <p>Conteúdo do artigo...</p>
+        </article>
+
+        <aside>
+            <h2>Barra Lateral</h2>
+            <p>Conteúdo relacionado...</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Rodapé da página</p>
+    </footer>
+
+</body>
+</html>
